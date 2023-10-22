@@ -1,0 +1,16 @@
+# Ignore common build and development artifacts
+node_modules/
+*.log
+*.lock
+*.swp
+.DS_Store
+
+# Ignore specific files and directories within packages
+apps/*/node_modules/
+apps/*/build/
+apps/*/dist/
+
+packages/*/node_modules/
+packages/*/build/
+packages/*/dist/
+
